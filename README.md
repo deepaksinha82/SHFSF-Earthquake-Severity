@@ -27,8 +27,8 @@ Bash
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
 # Data Availability
-The original multi-source raw seismic data utilized in this study can be accessed via the public repositories listed in the manuscript (e.g., USGS, NCS).
-To execute notebooks 02 through 07, ensure the harmonized and preprocessed dataset CSV (generated in step 01) is placed in the root directory. (Note: If you are a reviewer requesting the exact pre-compiled D4 CSV, please refer to the Data Availability Statement in the manuscript for access instructions).
+The harmonized and pre-processed dataset required to execute the machine learning models (My dataset with class and without missing values.csv) is included directly in the root directory of this repository for immediate reproducibility.
+The original, un-harmonized raw seismic dataset prior to the preprocessing (original_dataset.csv) is included directly in the root directory of this repository for immediate reproducibility.
 
 # License
-This project is licensed under the MIT License - see the LICENSE file for details. This permissive license allows for the reproduction, modification, and academic integration of this code, provided proper citation is given to the original authors.
+This repository and its contents are currently provided exclusively for academic peer-review purposes associated with the submission to KSII Transactions on Internet and Information Systems. All rights are reserved by the authors. No license is granted for commercial use, external distribution, or the creation of derivative works without explicit written permission from the authors.
